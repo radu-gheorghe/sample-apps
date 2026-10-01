@@ -6,7 +6,7 @@ on:
       - "visual-retrieval-colpali/**"
       - ".github/workflows/verify-colpali.yml"
   push:
-    branches: [master]
+    branches: [master, ci-test-colpali]
     paths:
       - "visual-retrieval-colpali/**"
       - ".github/workflows/verify-colpali.yml"
